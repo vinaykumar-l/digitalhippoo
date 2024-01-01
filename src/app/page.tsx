@@ -1,3 +1,4 @@
+import CalendarDemo from "@/components/CalendarDemo";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowDownToLine, CheckCircle, Leaf } from "lucide-react";
@@ -72,6 +73,7 @@ export default function Home() {
             ))}
           </div>
         </MaxWidthWrapper>
+        <CalendarDemo />
       </section>
     </>
   );
